@@ -4,14 +4,14 @@ namespace ConsoleApp1
 {
     class Program
     {
-        static void EscreveNaTela()
+        static void EscreveNaTela(String txt)
         {
-            Console.WriteLine("Alo Mundo!");
+            Console.WriteLine(txt);
 
         }
         static void Main(string[] args)
         {
-            EscreveNaTela();
+            EscreveNaTela("Alo Mundo!");
             Console.ReadKey();
         }
     }
