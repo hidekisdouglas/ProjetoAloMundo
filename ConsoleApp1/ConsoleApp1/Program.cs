@@ -7,10 +7,6 @@ namespace ConsoleApp1
         static void EscreveNaTela(String txt)
         {
             Console.WriteLine(txt);
-        }
-        static void EscreveNaTela2(String txt)
-        {
-            Console.WriteLine(txt);
 
         }
         static void Main(string[] args)
